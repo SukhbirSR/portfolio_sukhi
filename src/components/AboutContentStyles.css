@@ -1,0 +1,98 @@
+.about{
+    width: 100%;
+    margin: 3rem 0;
+    height: auto;
+}
+.about-container{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1rem;
+    width: 80%;
+}
+
+.about-intro{
+    text-align: center;
+    margin: 5rem auto 2rem;
+}
+
+.img{
+  width: 100%;
+  height: auto;
+}
+
+.about .right{
+    margin: auto;
+    padding: 1rem;
+}
+
+.right h1{
+    text-align: center;
+}
+
+.info{
+    margin: 1.2rem 0;
+    text-align: left;
+    font-size: 1.3rem;
+}
+
+.right .btn{
+    margin: 1rem 0.2rem;
+}
+
+
+.label{
+    color: #ff4d4d;
+    font-size: 19px;
+}
+
+.icon1{
+    display: inline-block;
+    margin: 1rem 30% 2rem 0;
+    color:"#fff";
+    text-align: left;
+}
+
+.icon2{
+    display: inline-block;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color:"#fff";
+    text-align: left;
+}
+@media screen and (max-width: 786px){
+    .about-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .info{
+        text-align: justify;
+        font-size: 1rem;
+    }
+
+    
+}
+
+@media screen and (max-width: 486px){
+    
+
+    .icon1,.icon2{
+        text-align: center;
+        margin: 1rem auto;
+        display: block;
+    }
+
+    .btn{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .btn-light{
+        width: 100%;
+        display: block; 
+    }
+}
